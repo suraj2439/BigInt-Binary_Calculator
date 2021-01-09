@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cc -c main.c stack.c main_suppl_funs.c num.c list.c
+cc main.o stack.o main_suppl_funs.o num.o list.o -o run_me
+rm main.o stack.o main_suppl_funs.o num.o list.o
+
+

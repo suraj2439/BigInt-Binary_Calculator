@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Big_N	num.h	/^typedef struct Big_N {$/;"	s
+Big_N	num.h	/^} Big_N;$/;"	t	typeref:struct:Big_N
+Big_node	stack.h	/^typedef struct Big_node{$/;"	s
+Big_node	stack.h	/^} Big_node;$/;"	t	typeref:struct:Big_node
+Big_stack	stack.h	/^typedef Big_node* Big_stack;$/;"	t
+LIST_H	list.h	2;"	d
+MAIN_SUPPL_FUNS_H	main_suppl_funs.h	2;"	d
+NUM_H	num.h	2;"	d
+add	num.c	/^Big_N add(Big_N *a, Big_N *b) {$/;"	f
+append	list.c	/^void append(list *l, int d){$/;"	f
+changeBase	num.c	/^Big_N changeBase(Big_N num, int k) {$/;"	f
+char_node	stack.h	/^typedef struct char_node{$/;"	s
+char_node	stack.h	/^} char_node;$/;"	t	typeref:struct:char_node
+char_stack	stack.h	/^typedef char_node* char_stack;$/;"	t
+compare	num.c	/^int compare(Big_N a, Big_N b) {$/;"	f
+cont	main.c	/^int cont;$/;"	v
+data	list.h	/^    int data;$/;"	m	struct:list_node
+data	num.h	/^    char data;$/;"	m	struct:node
+destroy	num.c	/^void destroy(Big_N *num)  {$/;"	f
+destroy_list	list.c	/^void destroy_list(list *l){$/;"	f
+display	num.c	/^void display(Big_N num) {$/;"	f
+division	num.c	/^Big_N division(Big_N *l, Big_N *m) {$/;"	f
+error	main_suppl_funs.c	/^void error(char prev, char next) {$/;"	f
+eval	main_suppl_funs.c	/^Big_N eval(Big_N *op1, Big_N *op2, char operan) {$/;"	f
+fact	num.c	/^Big_N fact(Big_N *num) {$/;"	f
+gcd	num.c	/^Big_N gcd(Big_N a1, Big_N b1) {$/;"	f
+get_info	main_suppl_funs.h	/^typedef struct get_info {$/;"	s
+get_info	main_suppl_funs.h	/^} get_info;$/;"	t	typeref:struct:get_info
+get_next	list.c	/^int get_next(list *l){ \/*removes and returns 1st element*\/$/;"	f
+get_token	main_suppl_funs.c	/^int get_token(get_info *info, list *inp) {$/;"	f
+handle_tokens	main_suppl_funs.c	/^void handle_tokens(get_info *info, list *inp, Big_stack *val) {$/;"	f
+head	num.h	/^        node *head;$/;"	m	struct:Big_N
+init	list.c	/^void init(list *l) {$/;"	f
+init_Big_stack	stack.c	/^void init_Big_stack(Big_stack *s) {$/;"	f
+init_char_stack	stack.c	/^void init_char_stack(char_stack *s) {$/;"	f
+init_info	main_suppl_funs.c	/^void init_info(get_info *info) {$/;"	f
+init_num	num.c	/^void init_num(Big_N *num) {$/;"	f
+inp_base	main_suppl_funs.h	/^        char inp_base;$/;"	m	struct:get_info
+insertInEnd	num.c	/^void insertInEnd(Big_N *num, int value) {$/;"	f
+insertInFront	num.c	/^void insertInFront(Big_N *num, int value) {$/;"	f
+insert_beg	list.c	/^void insert_beg(list *l, int d){$/;"	f
+isEmpty_Big_N	stack.c	/^int isEmpty_Big_N(Big_stack st) {$/;"	f
+isEmpty_char	stack.c	/^int isEmpty_char(char_stack st) {$/;"	f
+isOperator	main_suppl_funs.c	/^int isOperator(char c) {$/;"	f
+isempty	list.c	/^int isempty(list l){$/;"	f
+lcm	num.c	/^Big_N lcm(Big_N *a1, Big_N *b1) {$/;"	f
+length	num.c	/^int length(Big_N num) {$/;"	f
+list	list.h	/^typedef list_node* list;$/;"	t
+list_node	list.h	/^typedef struct list_node{$/;"	s
+list_node	list.h	/^}list_node;$/;"	t	typeref:struct:list_node
+main	main.c	/^int main() {$/;"	f
+modulo	num.c	/^Big_N modulo(Big_N *l, Big_N *m) {$/;"	f
+mult	num.c	/^Big_N mult(Big_N *l, Big_N *m) {$/;"	f
+neg	num.c	/^void neg(Big_N *num) {$/;"	f
+next	list.h	/^    struct list_node *next;$/;"	m	struct:list_node	typeref:struct:list_node::list_node
+next	num.h	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	stack.h	/^        struct Big_node* next;$/;"	m	struct:Big_node	typeref:struct:Big_node::Big_node
+next	stack.h	/^        struct char_node* next;$/;"	m	struct:char_node	typeref:struct:char_node::char_node
+next_token	main_suppl_funs.h	/^        char next_token;$/;"	m	struct:get_info
+node	num.h	/^typedef struct node {$/;"	s
+node	num.h	/^} node;$/;"	t	typeref:struct:node
+num	stack.h	/^        Big_N num;$/;"	m	struct:Big_node
+num	stack.h	/^        char num;$/;"	m	struct:char_node
+out_base	main_suppl_funs.h	/^        char out_base;$/;"	m	struct:get_info
+peek_Big_N	stack.c	/^Big_N peek_Big_N(Big_stack st) {$/;"	f
+peek_char	stack.c	/^char peek_char(char_stack st) {$/;"	f
+pop_Big_N	stack.c	/^Big_N pop_Big_N(Big_stack *head) {$/;"	f
+pop_char	stack.c	/^char pop_char(char_stack *head) {$/;"	f
+power	num.c	/^Big_N power(Big_N base, Big_N exp){$/;"	f
+precedence	main_suppl_funs.c	/^int precedence(char c) {$/;"	f
+prev	num.h	/^    struct node* prev;$/;"	m	struct:node	typeref:struct:node::node
+prev_token	main_suppl_funs.h	/^        char prev_token;$/;"	m	struct:get_info
+push_Big_N	stack.c	/^void push_Big_N(Big_stack *head, Big_N num) {$/;"	f
+push_char	stack.c	/^void push_char(char_stack *head, char num) {$/;"	f
+r_ass	main_suppl_funs.h	/^        char r_ass;$/;"	m	struct:get_info
+rem_lead_zeros	num.c	/^void rem_lead_zeros(Big_N *num) {$/;"	f
+sign	num.h	/^        char sign;$/;"	m	struct:Big_N
+size	num.h	/^        int size;$/;"	m	struct:Big_N
+solve_expr	main.c	/^int solve_expr() {$/;"	f
+sub	num.c	/^Big_N sub(Big_N *a, Big_N *b) {$/;"	f
+syfr	num.c	/^int symall = 0, syfr = 0;$/;"	v
+symall	num.c	/^int symall = 0, syfr = 0;$/;"	v
+tail	num.h	/^        node *tail;$/;"	m	struct:Big_N
+toDeci	num.c	/^Big_N toDeci(list *L, int b){$/;"	f
+token	main_suppl_funs.h	/^        char token;$/;"	m	struct:get_info
+touch	list.c	/^int touch(list l) {$/;"	f
+traverse	list.c	/^void traverse(list l){$/;"	f
+unary_neg	main_suppl_funs.h	/^        char unary_neg;$/;"	m	struct:get_info
+val	num.c	/^int val(char c)$/;"	f
