@@ -55,6 +55,7 @@ Big_N pop_Big_N(Big_stack *head) {
         /*To indicate stack is empty*/
         empty.sign = -1;
         if (*head == NULL)
+            /*current token*/
                 return empty;
         temp = *head;
         num = (*head)->num;
